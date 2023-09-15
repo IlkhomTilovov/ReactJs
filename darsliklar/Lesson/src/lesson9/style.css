@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+.form {
+  background-color: black;
+  color: #fff;
+}
+button {
+  margin: 10px;
+}

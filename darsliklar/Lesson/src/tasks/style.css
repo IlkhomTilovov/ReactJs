@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(125, 130, 147);
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+input {
+  height: 27px;
+  border-radius: 7px;
+  border: none;
+  padding-left: 10px;
+}
+button {
+  width: 100px;
+  height: 35px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 0 0.5rem;
+}
+.cellNumber {
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell {
+  width: 45%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell input {
+  width: 100%;
+  border: 1px solid;
+}
+

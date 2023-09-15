@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+  display: flex;
+  margin: 50px 50px;
+  gap: 30px;
+}
+.container {
+  width: 900px;
+  height: 900px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(80, 80, 80, 5);
+  display: flex;
+  flex-direction: column;
+  align-items: first-baseline;
+  justify-content: space-between;
+  border: 1px solid;
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 1px solid;
+}
+.footer {
+  border-top: 1px solid;
+  width: 100%;
+  height: 70px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  gap: 20px;
+}
+.btn button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #fff;
+}
+.green {
+  background-color: rgb(65, 225, 148);
+  border: rgb(65, 225, 148);
+}
+.blue {
+  background-color: royalblue;
+  border: royalblue;
+}
+.poskContainer {
+  width: 400px;
+  height: 55%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(80, 80, 80, 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+}
+.input input {
+  margin-top: 30px;
+  width: 300px;
+  height: 45px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+.inputBtn {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  padding: 0 50px;
+}
+.iBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: #808080;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row {
+  background-color: blueviolet;
+  width: 90%;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 7px;
+  display: flex;
+}
+.click {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+  padding: 0 30px;
+}
